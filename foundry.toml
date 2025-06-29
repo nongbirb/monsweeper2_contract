@@ -1,0 +1,7 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.20"
+optimizer = false        # <--- Try changing to false
+# optimizer_runs = 200   # <--- Remove or comment this line if optimizer is false
